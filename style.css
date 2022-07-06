@@ -235,6 +235,53 @@ p {
 }
 /* ----Subscription-section-End---- */
 
+/* ------Banner-Section-Start---- */
+
+#banner {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+#banner .card {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px 0 20px 0;
+    box-shadow: 3px 3px 15px  rgb(92, 92, 92);
+    -webkit-border-radius: 20px 0 20px 0;
+    -moz-border-radius: 20px 0 20px 0;
+    -ms-border-radius: 20px 0 20px 0;
+    -o-border-radius: 20px 0 20px 0;
+}
+
+#banner img {
+    width: 50%;
+    margin-right: 30px;
+}
+
+#banner .text {
+    height: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#banner p {
+    letter-spacing: 1px;
+    font-size: 1rem;
+    line-height: 2rem
+}
+
+/* ------Banner-Section-End---- */
+
 /* -----Footer-Section-Start---- */
 footer {
     background-color: #0B0D17;
