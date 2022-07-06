@@ -24,6 +24,17 @@
     -o-border-radius: 5px;
 }
 
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+p {
+    color: #707070;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
 /* --------Header-section-start------- */
 
 #header {
@@ -54,6 +65,7 @@
 #header p {
     font-size: 1.2rem;
     margin-bottom: 25px;
+    color: #ffffff;
     width: 70%;
     justify-content: center;
     align-items: center;
@@ -75,11 +87,6 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-}
-
-#donate .container h2 {
-    font-size: 3rem;
-    margin-bottom: 15px;
 }
 
 #donate .container p {
@@ -121,6 +128,56 @@
 }
 
 /* ---------Donate-section-end------- */
+
+#donate-plan {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content:space-around;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#donate-plan .plan {
+    display: flex;
+    text-align: left;
+    width: 100%;
+    margin-top: 40px;
+}
+
+#donate-plan .plan .item {
+    margin: 10px;
+    width: 33.33%;
+    height: auto;
+    padding: 20px;
+    
+}
+
+#donate-plan .plan .item:nth-child(1) {
+    background-color: #4f9da62d;
+}
+
+#donate-plan .plan .item:nth-child(2) {
+    background-color: #FF59592f;
+}
+
+#donate-plan .plan .item:nth-child(3) {
+    background-color: #FFF4D6;
+}
+#donate-plan .plan img {
+    width: 60px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+#donate-plan .plan h3{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+/* ---------Donate-Plan-section-Start------- */
+
+/* ---------Donate-Plan-section-end------- */
 
 
 
