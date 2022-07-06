@@ -24,36 +24,104 @@
     -o-border-radius: 5px;
 }
 
-.header {
+/* --------Header-section-start------- */
+
+#header {
     background:linear-gradient(0deg, rgba(0, 0, 0, .9), rgba(37, 37, 37, 0.1)), url("images/donation9.jpg") center center no-repeat;
     background-size: cover;
     min-height: 90vh;
     color: #ffffff;
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#header .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#header h1 {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+}
+
+
+#header p {
+    font-size: 1.2rem;
+    margin-bottom: 25px;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+}
+
+/* --------Header-section-end--------- */
+
+
+/* ---------Donate-section-start------- */
+
+#donate {
+    padding: 100px 0;
+    margin: 0 auto;
+}
+
+#donate .container {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
-    min-height: 100vh;
-    -webkit-filter: blur();
 }
 
-.header h1 {
-    font-size: 3.5rem;
-    margin-bottom: 10px;
+#donate .container h2 {
+    font-size: 3rem;
+    margin-bottom: 15px;
 }
 
-.header h1 .right {
+#donate .container p {
+    color: #707070;
+    width: 65%;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+#donate .ammount {
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+#donate .ammount .item {
     font-size: 2rem;
+    font-weight: 500;
+    padding: 40px 15px;
+    background-color: #FAFAFA;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
 
-.header p {
-    font-size: 1.2rem;
-    margin-bottom: 35px;
-    width: 70%;
-    justify-content: center;
-    align-items: center;
+#donate .ammount .item:nth-child(3) {
+    color: #FF5959;
+    background-color: #FFEEEE;
+    border: 2px solid #FF5959;
 }
+
+.grey {
+    color: #B3B3B3;
+    border-bottom: 1px solid #B3B3B3;
+    padding: 5px;
+}
+
+/* ---------Donate-section-end------- */
+
 
 
 
