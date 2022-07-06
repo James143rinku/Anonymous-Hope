@@ -1,11 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Montserrat", Geneva, Tahoma, sans-serif;
 }
 
+html {
+    font-family: "Montserrat", Geneva, Tahoma, sans-serif;
+}
 .container {
     padding: 0 100px;
 }
@@ -129,6 +134,7 @@ p {
 
 /* ---------Donate-section-end------- */
 
+/* ---------Donate-Plan-section-Start------- */
 #donate-plan {
     display: flex;
     flex-direction: column;
@@ -175,9 +181,81 @@ p {
     font-size: 1.5rem;
     margin-bottom: 10px;
 }
-/* ---------Donate-Plan-section-Start------- */
 
 /* ---------Donate-Plan-section-end------- */
+
+/* ----Subscription-section-Start---- */
+#subscription {
+    margin: 100px 0;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    text-align: center;
+}
+#subscription h2 {
+    margin-bottom: 20px;
+}
+
+#subscription p {
+    margin-bottom: 40px;
+}
+#subscription .email {
+    padding: 70px 150px;
+    background-color: #FFF4D6;
+}
+
+#subscription .email input {
+    margin: 0;
+    font-size: 1rem;
+    padding: 15px 20px;
+}
+
+#subscription .email input[type=email] {
+    background-color: #ffffff;
+    width: 300px;
+    margin: 0;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    -webkit-border-radius: 5px 0 0 5px;
+    -moz-border-radius: 5px 0 0 5px;
+    -ms-border-radius: 5px 0 0 5px;
+    -o-border-radius: 5px 0 0 5px;
+}
+
+#subscription .email input[type=submit] {
+    margin: -3px;
+    background-color: #FF5959;
+    border: none;
+    color: #ffffff;
+    border-radius: 0 5px 5px 0;
+    -webkit-border-radius: 0 5px 5px 0;
+    -moz-border-radius: 0 5px 5px 0;
+    -ms-border-radius: 0 5px 5px 0;
+    -o-border-radius: 0 5px 5px 0;
+}
+/* ----Subscription-section-End---- */
+
+/* -----Footer-Section-Start---- */
+footer {
+    background-color: #0B0D17;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer > h1 {
+    font-family: 'Jost', sans-serif;
+    color: #FF5959;
+    margin-bottom: 20px;
+}
+
+footer p {
+    color: #ffffff;
+    font-size: 13px;
+}
+/* -----Footer-Section-End---- */
 
 
 
